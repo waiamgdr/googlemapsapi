@@ -1,0 +1,13 @@
+.App {
+ 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.823);
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: center;
+    height: 100rem;
+  }
+  
+  .Map{
+    margin-top: 50px;
+  }

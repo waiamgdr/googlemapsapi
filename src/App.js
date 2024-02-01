@@ -1,15 +1,16 @@
 
 import React from 'react';
 import Googlemapp from './Googlemapp';
+import './app.css';
 
 function App() {
   
 
   return (
-    <div >
-      <h1> react-google-maps/api </h1>
-       <Googlemapp style={{}}></Googlemapp>
-      
+    <div className='App' >
+      <div className='Map'>
+       <Googlemapp></Googlemapp>
+       </div>
     </div>
   );
 }
